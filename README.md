@@ -1,16 +1,63 @@
-# profile_card_app
+# Profile Card App
 
-A new Flutter project.
+A Flutter application that displays a profile card with personal information. This project was created as part of a Flutter UI development exercise.
+
+## Features
+
+- Profile card with custom styling
+- Circular avatar image
+- Personal information display (name, email, social media)
+- Material Design implementation
+- Responsive layout
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (latest version)
+- Dart SDK
+- Android Studio/VS Code with Flutter plugins
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository
+```bash
+git clone https://github.com/Neoxs/profile_card_app.git
+```
+
+2. Navigate to project directory
+```bash
+cd profile_card_app
+```
+
+3. Create assets folder and add your profile image
+```bash
+mkdir -p assets/images
+# Add your profile image to assets/images/
+```
+
+4. Update pubspec.yaml
+```yaml
+flutter:
+  assets:
+    - assets/images/
+```
+
+5. Install dependencies
+```bash
+flutter pub get
+```
+
+6. Run the app
+```bash
+flutter run
+```
+
+## Project Structure
+
+```
+lib/
+  └── main.dart         # Main application file
+assets/
+  └── images/          # Image assets
+```
